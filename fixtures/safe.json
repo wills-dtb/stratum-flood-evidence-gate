@@ -1,0 +1,50 @@
+{
+  "assessment_id": "SYNTHETIC-001",
+  "assessment_date": "2026-10-21",
+  "jurisdiction": "England",
+  "sources": [
+    {
+      "id": "POLICY-DEMO-01",
+      "version": "v1",
+      "text": "For this fictional example, the applicant must provide an explicit surface water drainage plan before approval.",
+      "jurisdiction": "England",
+      "effective_from": "2025-01-01",
+      "effective_to": "2027-12-31",
+      "sha256": "bf6285342d0a273b1ebe45af6445893f5ed7f5eb757be3343db2d7b45dd0b2bf"
+    }
+  ],
+  "findings": [
+    {
+      "statement": "Request a surface water drainage plan.",
+      "citations": [
+        {
+          "source_id": "POLICY-DEMO-01",
+          "source_version": "v1",
+          "quote": "the applicant must provide an explicit surface water drainage plan"
+        }
+      ]
+    }
+  ],
+  "human_signoff": {
+    "approved": true,
+    "officer_id": "officer-demo",
+    "role": "lead_local_flood_authority_officer",
+    "signed_at": "2026-10-21T08:00:00Z"
+  },
+  "audit_events": [
+    {
+      "sequence": 1,
+      "action": "reviewed",
+      "actor": "officer-demo",
+      "previous_hash": "GENESIS",
+      "hash": "b029b99b60894a9b06ad73d6a411eb0bb00e437c6c276dbcaef1bc90ad2f2060"
+    },
+    {
+      "sequence": 2,
+      "action": "approved",
+      "actor": "officer-demo",
+      "previous_hash": "b029b99b60894a9b06ad73d6a411eb0bb00e437c6c276dbcaef1bc90ad2f2060",
+      "hash": "f417c4ea51b99de91cd1625f64d0e706dfc2d3f06728dd2c6bb28dd2b863beca"
+    }
+  ]
+}
